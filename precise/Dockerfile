@@ -16,3 +16,5 @@ ENV PATH $PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
 
 RUN pyenv install 2.7.6
 RUN pyenv global 2.7.6
+
+CMD ["/bin/echo", "Please run with /bin/bash"]
